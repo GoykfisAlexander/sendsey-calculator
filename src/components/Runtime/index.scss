@@ -1,0 +1,44 @@
+.Runtime {
+  grid-area: Runtime;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "display";
+  align-content: start;
+  row-gap: 1%;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 25%;
+    font-size: 0.2em;
+    .image {
+      width: 30%;
+      height: 25%;
+    }
+    div {
+      color: #5d5fef;
+      font-size: 0.7em;
+      font-weight: 500;
+    }
+    span {
+      font-size: 0.6em;
+      text-align: center;
+      font-weight: 400;
+    }
+  }
+  &_default {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.02em dashed #c4c4c4;
+    border-radius: 0.06em;
+  }
+}
+.sky {
+  background-color: #f0f9ff;
+}
+.space {
+  justify-content: space-between;
+}

@@ -1,0 +1,84 @@
+.display {
+  grid-area: display;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10.5vmin;
+  div {
+    font-size: 0.36em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5%;
+    width: 92%;
+    height: 90%;
+    background-color: #f3f4f6;
+    border-radius: 0.16em;
+    font-weight: 800;
+  }
+}
+
+.operators {
+  height: 9.8vmin;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  &_hover:hover {
+    border: 0.14em solid #5d5fef;
+    cursor: pointer;
+  }
+  div {
+    font-size: 0.14em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22.5%;
+    height: 90%;
+    border: 0.07em solid #e2e3e5;
+    border-radius: 0.5em;
+  }
+}
+.digits {
+  height: 35vmin;
+
+  display: grid;
+  grid-template: repeat(4, 22%) / repeat(3, 30%);
+  justify-content: space-around;
+  align-content: space-around;
+  &_hover:hover {
+    border: 0.14em solid #5d5fef;
+    cursor: pointer;
+  }
+  div {
+    font-size: 0.14em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.07em solid #e2e3e5;
+    border-radius: 0.5em;
+  }
+  &_0 {
+    grid-column-start: span 2;
+  }
+}
+.equals {
+  height: 11.2vmin;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &_hover {
+    cursor: pointer;
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5d5fef;
+    width: 97%;
+    height: 90%;
+    border-radius: 0.4em;
+    font-size: 0.14em;
+  }
+}

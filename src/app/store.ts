@@ -1,9 +1,13 @@
-import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
+import runtimeActiveReducer from "./RuntimeActiveSlice";
+import dragAndDropReducer from "./DragAndDropSlice";
+import calculateReducer from "./CalculateSlice";
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    runtimeActive: runtimeActiveReducer,
+    dragAndDrop: dragAndDropReducer,
+    calculate: calculateReducer,
   },
 });
 

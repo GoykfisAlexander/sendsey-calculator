@@ -1,0 +1,17 @@
+.Constructor {
+  grid-area: Constructor;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "display";
+  align-content: start;
+  row-gap: 1%;
+
+  .display,
+  .operators,
+  .digits,
+  .equals {
+    box-shadow: 0 0.02em 0.04em rgba(0, 0, 0, 0.06),
+      0 0.04em 0.06em rgba(0, 0, 0, 0.1);
+    border-radius: 0.06em;
+  }
+}
