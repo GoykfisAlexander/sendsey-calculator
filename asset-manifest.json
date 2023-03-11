@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sendsey-calculator/static/css/main.b46c6fa8.css",
-    "main.js": "/sendsey-calculator/static/js/main.c8fdacc2.js",
+    "main.js": "/sendsey-calculator/static/js/main.27fc886d.js",
     "static/js/787.ee9f54d9.chunk.js": "/sendsey-calculator/static/js/787.ee9f54d9.chunk.js",
     "static/media/image.svg": "/sendsey-calculator/static/media/image.ff2a0d409c14819260b08f919e659b64.svg",
     "static/media/eye.svg": "/sendsey-calculator/static/media/eye.1e033d8501f85bfd21633e578c03792e.svg",
@@ -9,11 +9,11 @@
     "static/media/brackets.svg": "/sendsey-calculator/static/media/brackets.f038a4bd356ed4369dde5f4e273cfd2b.svg",
     "static/media/vector.svg": "/sendsey-calculator/static/media/vector.fa243185b8bc2d1b2f53a1767f99fca6.svg",
     "main.b46c6fa8.css.map": "/sendsey-calculator/static/css/main.b46c6fa8.css.map",
-    "main.c8fdacc2.js.map": "/sendsey-calculator/static/js/main.c8fdacc2.js.map",
+    "main.27fc886d.js.map": "/sendsey-calculator/static/js/main.27fc886d.js.map",
     "787.ee9f54d9.chunk.js.map": "/sendsey-calculator/static/js/787.ee9f54d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b46c6fa8.css",
-    "static/js/main.c8fdacc2.js"
+    "static/js/main.27fc886d.js"
   ]
 }
