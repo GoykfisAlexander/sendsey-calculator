@@ -95,9 +95,11 @@ export const Calculator = ({ component, flagConstructor, index }: IProps) => {
       {isOver && <Vector height="12px" />}
       <div
         ref={(element) => {
-          (component === "display" && !flagConstructor) ||
-            (flagConstructor && moveComponent[component]) ||
-            drag(element);
+          [
+            component === "display" && !flagConstructor,
+            flagConstructor && moveComponent[component],
+            runtimeActive,
+          ].some((e) => e) || drag(element);
           !flagConstructor && component !== "display" && drop(element);
         }}
         style={styles}
